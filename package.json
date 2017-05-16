@@ -1,0 +1,29 @@
+{
+  "name": "mars-rovers-challenge",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "babel": "babel src --out-dir dist/",
+    "test": "npm run babel && mocha test/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesaliyev/mars-rovers-challenge.git"
+  },
+  "keywords": [
+    "mars rovers"
+  ],
+  "author": "Rameş Aliyev <creator@ramesaliyev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramesaliyev/mars-rovers-challenge/issues"
+  },
+  "homepage": "https://github.com/ramesaliyev/mars-rovers-challenge#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
