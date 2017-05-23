@@ -1,6 +1,6 @@
 # Mars Rovers Code Challenge
 
-# Problem
+## Problem
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on-board cameras can get a complete view of the surrounding terrain to send back to Earth.
 
@@ -32,14 +32,14 @@ marsRover.getFinalPositions() // returns a list of two strings
 // 5 1 E
 ```
 
-# Installation & Test
+## Installation & Test
 #### Install Dependencies:
     npm i
 
 #### Run Tests:
     npm t
 
-# Some Notes
+## Some Notes
 - Rovers won't move forward when they react to border of plateau or facing to another rover, but they can move after rotate.
 - You can't add rover to out of plateau or on top of another rover. Failed `addRover` request will return false.
 - Successful `addRover` will return index number of rover. It can be used later to activate rover for sending commands.
